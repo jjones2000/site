@@ -5,12 +5,10 @@ date: 2021-03-23T21:46:40+03:00
 show_date: false
 ---
 
-E-mail: berkay@berkaycubuk.com
+E-mail: jxj898 *at* student.bham.ac.uk
 
-Github: https://github.com/berkaycubuk
+Github: https://github.com/jjones2000
 
-Twitter: https://twitter.com/brkycubuk
+LinkedIn: www.linkedin.com/in/joseph-jones870
 
-YouTube: https://www.youtube.com/channel/UC-66ELjIWY_FXYavT05zQJw
-
-LinkedIn: https://linkedin.com/in/berkaycubuk
+Google Scholar: https://scholar.google.com/citations?hl=en&user=-dFCSu0AAAAJ
