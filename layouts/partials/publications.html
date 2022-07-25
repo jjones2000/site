@@ -1,0 +1,9 @@
+<!-- publications -->
+<section>
+  {{ range (where site.RegularPages.ByDate.Reverse "Type" "publications") }}
+        <a href="{{ .RelPermalink }}">
+            {{ .Title }} <span class="comment">// {{ .Date.Format "2006-01-02" }}</span>
+        </a>
+  {{ end }}
+</section>
+  <!-- /publications -->
