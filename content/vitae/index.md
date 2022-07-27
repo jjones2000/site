@@ -9,6 +9,7 @@ classoption: "12pt"
 ---
 
 **Meta**
+
 You're looking at a document that doubles as a .pdf CV and a html webpage. However you're viewing this, welcome! Information from around the site is together here.
 
 You can download this in printable form at [https://josephjones.net/vitae/vita.pdf](https://josephjones.net/vitae/vita.pdf) or see it in HTML form at [https://josephjones.net/vitae/vita.html](https://josephjones.net/vitae/vita.html).
