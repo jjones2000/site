@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Inconsolata';
-src: url('\static\fonts\inconsolata_mono.tff') format('tff');
+src: url('\static\fonts\Inconsolata-Regular.woff2') format('woff2');
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-src: url('\static\fonts\Roboto-Regular.tff') format('tff');
+src: url('\static\fonts\Roboto-Regular.woff') format('woff');
 font-weight: normal;
 font-style: normal;
 }
