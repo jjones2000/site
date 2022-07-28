@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Inconsolata';
+src: url('\static\fonts\inconsolata_mono.tff') format('tff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+src: url('\static\fonts\Roboto-Regular.tff') format('tff');
+font-weight: normal;
+font-style: normal;
+}
 
 * {
   font-family: 'Inconsolata', monospace;
