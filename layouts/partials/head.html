@@ -4,13 +4,13 @@
     {{ $title := print .Title " - " .Site.Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     
-    <title><link href="favicon.ico">
-    {{ $title }}</title>
+    <title>{{ $title }}</title>
     <meta property="og:title" content="{{ $title }}">
     <meta name="twitter:title" content="{{ $title }}">
     <meta itemprop="name" content="{{ $title }}">
     <meta name="application-name" content="{{ $title }}">
     <meta name="og:site_name" content="{{ $title }}">
+    {{ partial "favicon.html" }}
     {{ if .Params.description }}
       <meta name="description" content="{{ .Params.description }}">
       <meta itemprop="description" content="{{ .Params.description }}">
