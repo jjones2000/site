@@ -4,7 +4,7 @@
   <img style="float: right;" class="rounded" src="img/scruff.png" width="250" alt="Me!"/>
   <p>I am a Theoretical Physics PhD student at the <a href="https://www.birmingham.ac.uk/">University of Birmingham</a> researching statistical physics and phase transitions. 
   </p>
-  <p> I think about the collective behaviour of spins that populate low dimensional materials. Spins is a cryptic word here as it can mean <a href="https://en.wikipedia.org/wiki/Ising_model#Applications">various things such as</a> electrons or neurons depending on whether we are thinking about magnetism or neuroscience. Thinking about the short-range interactions of these fundamental pieces of systems is vitally important to understanding common phenomena like magnetism and traffic flow/jams.
+  <p> I think about the collective behaviour of spins that populate low dimensional materials. Spins is a cryptic word here as it can mean <a href="https://en.wikipedia.org/wiki/Ising_model#Applications">various things such as</a> electrons or neurons depending on whether we are thinking about magnetism or neuroscience. The long-range, emergent effects coming from short-range interactions results in a large part of daily phenomena like magnetism and traffic flow/jams.
   </p>
   <p> Technically: I have recently been involved in developing statistical physics perturbation theory. A direct analogue of the quantum version that can be used to probe phase transitions of classical spin models to be probed. The perturbation theory uses a new mathematical result involving a power-series expansion of the Baker-Campbell-Hausdorff formula.</p>
   
