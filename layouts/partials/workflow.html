@@ -1,0 +1,10 @@
+<section>
+  <h3>Syncing pass, the standard unix password manager, with android Password Store. 2023-01-05</h3>
+  <ul>
+    <li> Download Password Store and OpenKeyChain apps.</li>
+    <li> Export gpg key used for pass via running "gpg --armor --export-secret-keys key_id > private_key" (replace key_id with either the email used for the key or its actual ID) in the terminal. Send key to phone.</li>
+    <li> Import gpg key file to OpenKeyChain.</li>
+    <li> On Password Store select "Clone remote repo" and enter SSH URL of pass repo on git, pass repo can be synced with gia via pass's man page.</li>
+    <li> Select SSH to sync with git, the public part of the SSH key needs putting on GitHub or wherever the repo is hosted.</li>
+  </ul>
+</section>
