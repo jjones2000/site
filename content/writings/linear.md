@@ -4,7 +4,7 @@ slug: linalg
 tags: 
     - maths
     - physics
-date: 2023-05-30T07:02:15.000Z
+date: 2023-05-30
 ---
 
 This article will describe basic conepts of linear algebra and links to some fundamental resources.
