@@ -6,4 +6,5 @@ tags:
     - physics
 date: 2023-05-30T07:02:15.000Z
 ---
-Placeholder text...
+
+This article will describe basic conepts of linear algebra and links to some fundamental resources.
