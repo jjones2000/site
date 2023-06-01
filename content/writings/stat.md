@@ -7,4 +7,6 @@ tags:
 date: 2023-06-01
 ---
 # Introduction
-This article will cover the fundamental ensembles of classical statistical physics and derives various quantities.
+This article will cover the fundamental ensembles of classical statistical physics and derive various quantities.
+
+# Ensembles
