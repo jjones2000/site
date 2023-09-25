@@ -10,3 +10,4 @@ date: 2023-06-01
 This article will cover the fundamental ensembles of classical statistical physics and derive various quantities.
 
 # Ensembles
+# Phase transitions
