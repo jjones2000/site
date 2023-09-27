@@ -14,11 +14,7 @@ font-style: normal;
 
 * {
   font-family: 'Inconsolata', monospace;
-  color: var(--color-yellow);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+  color: var(--color-base01);
 }
 
 h1 {
@@ -41,7 +37,8 @@ h4,
 h5,
 h6 {
   border-color: #e9e1c8 !important;
-  color: #586e75 !important;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-base01) !important;
 }
 
 a:link, a:visited {
