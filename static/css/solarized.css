@@ -1,15 +1,15 @@
 :root {
-  ---bg: #fdf6e3;
-  ---bg2: #eee8d5;
-  ---text: #657b83;
-  ---yellow: #b58900 ;
-  ---orange: #cb4b16;
-  ---red: #dc322f;
-  ---magenta: #d33682;
-  ---violet: #6c71c4;
-  ---blue: #268bd2;
-  ---cyan: #2aa198;
-  ---green: #859900;
+  --color-bg: #fdf6e3;
+  --color-bg2: #eee8d5;
+  --color-text: #657b83;
+  --color-yellow: #b58900 ;
+  --color-orange: #cb4b16;
+  --color-red: #dc322f;
+  --color-magenta: #d33682;
+  --color-violet: #6c71c4;
+  --color-blue: #268bd2;
+  --color-cyan: #2aa198;
+  --color-green: #859900;
 }
 
 body {
