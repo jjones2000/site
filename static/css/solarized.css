@@ -1,17 +1,108 @@
 :root {
-  --color-bg: #fdf6e3;
-  --color-bg2: #eee8d5;
-  --color-text: #657b83;
-  --color-yellow: #b58900 ;
-  --color-orange: #cb4b16;
-  --color-red: #dc322f;
-  --color-magenta: #d33682;
-  --color-violet: #6c71c4;
-  --color-blue: #268bd2;
-  --color-cyan: #2aa198;
-  --color-green: #859900;
+  ---bg: #fdf6e3;
+  ---bg2: #eee8d5;
+  ---text: #657b83;
+  ---yellow: #b58900 ;
+  ---orange: #cb4b16;
+  ---red: #dc322f;
+  ---magenta: #d33682;
+  ---violet: #6c71c4;
+  ---blue: #268bd2;
+  ---cyan: #2aa198;
+  ---green: #859900;
 }
 
 body {
-  color: var(--color-text);
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  background-: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+@media (max-width: 960px) {
+  body {
+    width: calc(100% - 20px);
+  }
+}
+@font-face {
+  font-family: 'Inconsolata';
+src: url('\static\fonts\Inconsolata-Regular.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+src: url('\static\fonts\Roboto-Regular.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+* {
+  font-family: 'Inconsolata', monospace;
+  : var(--color-yellow);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  : var(--color-orange);
+}
+
+h2 {
+  : var(--color-green);
+}
+
+h3, h4, h5, h6 {
+  : var(--color-violet);
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  : var(--color-blue);
+}
+
+a:hover {
+  : var(--color-red);
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  : var(--color-yellow);
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  height: 1px;
+  background-: var(--color-yellow);
+  border: none;
+}
+
+pre {
+  padding: 10px;
+  background-: var(--color-yellow);
+  overflow: auto;
+}
+
+code {
+  font-style: italic;
+  : var(--color-text);
+}
+
+.comment {
+  : var(--color-text);
 }
