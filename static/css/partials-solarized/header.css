@@ -3,7 +3,7 @@ header .title {
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   margin: 0.5em 0;
-  color: var(--color-yellow-bright);
+  color: var(--color-yellow);
 }
 
 header nav a {

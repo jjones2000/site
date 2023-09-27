@@ -1,14 +1,17 @@
 @import "solarized.css";
 @import "global-solarized.css";
-@import "layout-solarized.css";
-/*
+@import "layout.css";
+/* @import "variables.css";
  * @import "global.css";
- * @import "layout.css";
 /*
 
 /* Partials */
-@import "partials/header.css";
+/*@import "partials/header.css";
 @import "partials/recent-articles.css";
 @import "partials/footer.css";
-@import "partials/welcome.css";
+@import "partials/welcome.css";*/
 
+@import "partials-solarized/header.css";
+@import "partials-solarized/recent-articles.css";
+@import "partials-solarized/footer.css";
+@import "partials-solarized/welcome.css";
