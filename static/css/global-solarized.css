@@ -34,10 +34,10 @@ h3, h4, h5, h6 {
   : var(--color-violet);
 }
 
-a {
+a:link {
   text-decoration: none;
   font-family: 'Inconsolata', monospace;
-  : var(--color-cyan);
+  : var(--color-blue);
 }
 
 a:hover {
