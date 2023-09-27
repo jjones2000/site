@@ -44,6 +44,12 @@ a:hover {
   : var(--color-red);
 }
 
+a:visited {
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  : var(--color-blue);
+}
+
 p {
   font-family: 'Inconsolata', monospace;
   : var(--color-yellow);
