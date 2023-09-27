@@ -23,15 +23,25 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
-  color: var(--color-orange);
+  /*color: var(--color-orange);*/
 }
-
+/*
 h2 {
   color: var(--color-green);
 }
 
 h3, h4, h5, h6 {
   color: var(--color-violet);
+}
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-color: #e9e1c8 !important;
+  color: #586e75 !important;
 }
 
 a:link, a:visited {
@@ -46,7 +56,7 @@ a:hover {
 
 p {
   font-family: 'Inconsolata', monospace;
-  color: var(--color-yellow);
+  color: var(--color-text);
 }
 
 img {
@@ -55,18 +65,21 @@ img {
 
 hr {
   height: 1px;
-  background-: var(--color-yellow);
+  background-color: var(--color-base2);
+  color: var(--color-base2);
   border: none;
 }
 
 pre {
   padding: 10px;
-  background-: var(--color-yellow);
+  background-color: var(--color-base2);
+  color: var(--color-text);
   overflow: auto;
 }
 
 code {
   font-style: italic;
+  background-color: var(--color-base2);
   color: var(--color-text);
 }
 
