@@ -14,7 +14,7 @@ font-style: normal;
 
 * {
   font-family: 'Inconsolata', monospace;
-  : var(--color-yellow);
+  color: var(--color-yellow);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,36 +23,30 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
-  : var(--color-orange);
+  color: var(--color-orange);
 }
 
 h2 {
-  : var(--color-green);
+  color: var(--color-green);
 }
 
 h3, h4, h5, h6 {
-  : var(--color-violet);
+  color: var(--color-violet);
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: none;
   font-family: 'Inconsolata', monospace;
-  : var(--color-blue);
+  color: var(--color-blue);
 }
 
 a:hover {
-  : var(--color-red);
-}
-
-a:visited {
-  text-decoration: none;
-  font-family: 'Inconsolata', monospace;
-  : var(--color-blue);
+  color: var(--color-red);
 }
 
 p {
   font-family: 'Inconsolata', monospace;
-  : var(--color-yellow);
+  color: var(--color-yellow);
 }
 
 img {
@@ -73,9 +67,9 @@ pre {
 
 code {
   font-style: italic;
-  : var(--color-text);
+  color: var(--color-text);
 }
 
 .comment {
-  : var(--color-text);
+  color: var(--color-text);
 }
