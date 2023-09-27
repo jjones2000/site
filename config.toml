@@ -6,3 +6,4 @@ enableEmoji = true
 [params]
   description = "Physicist."
   favicon = "/favicon.ico"
+  themeVariant = "solarized"
